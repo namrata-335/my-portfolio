@@ -1,18 +1,18 @@
 import ProjectCard from "./ProjectCard";
 
-import Image from "next/image";
-
-export default function Projects(){
-    return(
-            <section id="projects" className="bg-[#30050E] px-24 py-20 ">
-            <div className="w-2/3">
-                    <h1 className="mb-15 text-8xl font-serif text-[#F6F3E4] leading-none">
-                        Projects
-  
-                    </h1>
+export default function Projects() {
+    return (
+        <section
+            id="projects"
+            className="bg-[#30050E] px-6 md:px-12 lg:px-24 py-20 scroll-mt-20"
+        >
+            <div className="w-full lg:w-2/3">
+                <h1 className="mb-12 text-5xl md:text-7xl lg:text-8xl font-serif text-[#F6F3E4] leading-none">
+                    Projects
+                </h1>
             </div>
-         
-        <div className="grid grid-cols-2 gap-10 items-start">
+
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 items-start">
 
         <ProjectCard
     
